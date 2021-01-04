@@ -1,0 +1,50 @@
+<label for="camponome">Nome:</label><br>
+<input type="text" id="camponome"><br>
+
+<br>
+
+<label for="campoemail">E-mail:</label><br>
+<input type="text" id="campoemail"><br>
+
+<br>
+
+<label for="camposenha">Senha:</label><br>
+<input type="text" id="camposenha"><br>
+
+<br>
+
+<button id="botaoenviar" type = "submit" onclick="notif()" disabled> Enviar</button>
+
+
+
+<script>
+
+    let botao = document.getElementById("botaoenviar")
+
+    document.querySelectorAll("input").forEach(item => {
+
+        item.addEventListener("input", event => {
+    
+            if(document.getElementById("camponome").value === ""|| document.getElementById("campoemail").value === "" || document.getElementById("camposenha").value === "" ){
+        
+                botao.disabled = true;
+    
+            }else{
+
+                botao.disabled = false;
+    
+            }
+        })
+        
+    })
+
+
+    function notif() {
+        alert("Formulário preenchido com sucesso");
+    }
+
+</script>
+
+
+
+

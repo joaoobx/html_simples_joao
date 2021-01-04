@@ -1,0 +1,13 @@
+Objetivo
+
+- Construir uma tela em HTML que possui três campos de texto ("nome", "email", "senha") e um botão que só é ativado quando eles estão preenchidos. Este botão retornará para o próprio algorítmo. 
+
+Estratégias
+
+- Fazer apenas um HTML (tarefa.html);
+- Queremos fazer um MVC primeiro (Menor Produto Viavel) -> algo que funciona mas não esta bem escrito;
+- Aprender como se implementa campos de texto em html;
+- Aprender como se implementa botões em html;
+- Aprender como se ativa um botão pro meio de uma condição;
+- Começar o algorítmo;
+- Dividir este algorítmo em 2 partes (html e script);
